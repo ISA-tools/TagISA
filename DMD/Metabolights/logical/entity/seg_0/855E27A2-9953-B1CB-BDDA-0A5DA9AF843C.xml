@@ -41,21 +41,6 @@
 <logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Accession" id="8F931AB4-7A0F-7B36-12BE-FCC6878D2ECF">
-<createdBy>Erik</createdBy>
-<createdTime>2016-02-10 10:12:11 UTC</createdTime>
-<generatorID>B0459C4C-BEB9-50FB-893B-5369D1D2BABB</generatorID>
-<ownerDesignName>Metabolights</ownerDesignName>
-<engineerTo>
-<item key="1692D7BC-792A-B84E-8699-E46BC9417A25" value="true"/>
-</engineerTo>
-<referedAttribute>25C79E04-E4BD-F28F-45B4-1DC638C91847</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="36A347B6-24B3-94AE-E25B-49368D6D98D0" name="Label">
@@ -67,10 +52,9 @@
 <item key="1692D7BC-792A-B84E-8699-E46BC9417A25" value="false"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>64AA1823-60FD-8844-ABF1-0B6A80446D06,B0459C4C-BEB9-50FB-893B-5369D1D2BABB</newElementsIDs>
+<newElementsIDs>64AA1823-60FD-8844-ABF1-0B6A80446D06</newElementsIDs>
 <usedAttributes>
 <attributeRef>64AA1823-60FD-8844-ABF1-0B6A80446D06</attributeRef>
-<attributeRef>8F931AB4-7A0F-7B36-12BE-FCC6878D2ECF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -41,12 +41,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="58785C2D-E0A7-E53F-18FF-22C2982D4296" referredColumn="61E60D28-ADAA-4F59-8E07-67BC60E74829"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -60,19 +57,15 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B9ABA28B-7CEC-0996-90DD-4EC4B35BE056"/>
-<colUsage columnID="EFC7CADB-429D-76C5-DD14-EBD5F26535B1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CB025D65-C588-4117-BD12-1859342A56C7" name="Keyword_ISA-Tab_FK">
+<ind_PK_UK id="18716842-B462-DA0A-93B3-700D6CBF5F34" name="Relation_5">
 <createdBy>Erik</createdBy>
-<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<createdTime>2016-04-17 18:13:28 UTC</createdTime>
 <generatorID>B0459C4C-BEB9-50FB-893B-5369D1D2BABB</generatorID>
 <ownerDesignName>Metabolights</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="EFC7CADB-429D-76C5-DD14-EBD5F26535B1"/>
-</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

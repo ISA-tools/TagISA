@@ -41,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -73,6 +73,14 @@
 <indexColumnUsage>
 <colUsage columnID="232BC68C-5B04-C25B-DB11-686441D7C5C5"/>
 </indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A56F1664-6FD1-0D58-FDF9-D46F93DF3580" name="has_tagv1">
+<createdBy>Erik</createdBy>
+<createdTime>2016-04-17 18:13:28 UTC</createdTime>
+<generatorID>48255158-585A-5F5F-D1DF-FE88BE10F0C4</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
 </ind_PK_UK>
 </indexes>
 </Table>

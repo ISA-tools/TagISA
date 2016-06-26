@@ -8,10 +8,10 @@
 </engineerTo>
 <sourcePk>D5BC8E0C-76FC-3B26-2EBA-4EF1271201AD</sourcePk>
 <targetPk>36A347B6-24B3-94AE-E25B-49368D6D98D0</targetPk>
-<identifying>true</identifying>
-<optionalSource>false</optionalSource>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>41210B62-E505-0D7F-8DEE-6BD7233B9F48</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>855E27A2-9953-B1CB-BDDA-0A5DA9AF843C</targetEntity>

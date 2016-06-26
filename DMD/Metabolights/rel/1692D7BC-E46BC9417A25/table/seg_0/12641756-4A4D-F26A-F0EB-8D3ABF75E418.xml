@@ -45,5 +45,13 @@
 <colUsage columnID="D988B07D-ABE5-EDC9-7CDC-68708077A21B"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="DFD26131-EC63-88C8-C94A-B28B1B0B1148" name="has_tag">
+<createdBy>Erik</createdBy>
+<createdTime>2016-04-17 18:13:28 UTC</createdTime>
+<generatorID>48255158-585A-5F5F-D1DF-FE88BE10F0C4</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
 </indexes>
 </Table>
